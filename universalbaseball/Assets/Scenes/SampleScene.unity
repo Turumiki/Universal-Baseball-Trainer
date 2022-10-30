@@ -3656,7 +3656,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: "\u30E6\u30CB\u30D0\u30FC\u30B5\u30EB\u91CE\u7403\u30C8\u30EC\u30FC\u30CA\u30FC"
+=======
+  m_text: "\u30E6\u30CB\u30D0\u30FC\u30B5\u30EB\u91CE\u7403\n\u7DF4\u7FD2\u7403\u5834"
+>>>>>>> turumiki/addtext
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e3afe925aec160a429bab83a2580b9e1, type: 2}
   m_sharedMaterial: {fileID: 5715017225832780651, guid: e3afe925aec160a429bab83a2580b9e1, type: 2}
@@ -3683,13 +3687,22 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
   m_fontSize: 1.3
   m_fontSizeBase: 1.3
+=======
+  m_fontSize: 1.89
+  m_fontSizeBase: 1.89
+>>>>>>> turumiki/addtext
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
+<<<<<<< HEAD
   m_fontStyle: 0
+=======
+  m_fontStyle: 1
+>>>>>>> turumiki/addtext
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3787,7 +3800,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 2.61, y: 4.9199996}
+=======
+  m_AnchoredPosition: {x: 2.61, y: 5.039}
+>>>>>>> turumiki/addtext
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1975487802
