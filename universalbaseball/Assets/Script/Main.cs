@@ -24,7 +24,7 @@ public class Main : MonoBehaviour
 
     public void OnClick()//ボタンがクリックされた時の関数
     {
-        if (buttonflag == true)//buttonflagがtrueなら
+        if (buttonflag)//buttonflagがtrueなら
         {
             //バットを振り、ボタンの表示を変える
             Invoke("Dakyu", Delaytime);//Dakyu関数をDelaytimeで設定された秒数後に実行する。

@@ -1,27 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+Ôªøusing UnityEngine;
 
-public class BH2 : MonoBehaviour
+public class Judgment : MonoBehaviour
 {
     public new GameObject gameObject;
+    public new AudioClip sound;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Ball")
         {
-            Debug.Log("ÉcÅ[ÉxÅ[ÉXÉqÉbÉgÅIÅI");
+            Debug.Log("„Éí„ÉÉ„ÉàÔºÅÔºÅ");‚òÄ
             gameObject.SetActive(true);
+            AudioSource.PlayClipAtPoint(sound, transform.position);
+            
+
             Invoke("Hide", 2);
         }
         else
