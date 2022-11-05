@@ -20,7 +20,7 @@ public class Judgment : MonoBehaviour
     {
         if (other.tag == "Ball")
         {
-            Debug.Log("ヒット！！");☀
+            Debug.Log("ヒット！！");
             gameObject.SetActive(true);
             AudioSource.PlayClipAtPoint(sound, transform.position);
             
